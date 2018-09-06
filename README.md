@@ -21,6 +21,12 @@ time, to implement some of the version-2-ideas into the current version 1.
 [Here you can read more about the changes/enhancements](https://sikulix-2014.readthedocs.io/en/latest/news.html)
 
 Sorry, Linux people: not yet useable for you :-(
+Ubuntu 16.04 : you need something like:
+- leptonica-1.76.0
+- libtesseract-3.0.5
+=> in LD_LIBRARY_PATH (say /usr/local/lib)
+- tess4j-3.4.8.jar in sikuli's root
+- opencv-342 as ~/.Sikulix/SikulixLibs/libopencv_java342.so
 
 **You need at least Java 8, but it works on Java 9+ also**
 
